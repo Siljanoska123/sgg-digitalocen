@@ -1,0 +1,420 @@
+.cover-intro {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.banner-one .shape1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+    /* width: 10%; */
+ 
+
+}
+
+.shape1 {
+    visibility: visible;
+    animation-duration: 3500ms;
+    animation-delay: 500ms;
+ 
+
+}
+
+
+.awardslika {
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+
+    visibility: visible;
+    border-radius: 30% 70% 0% 100% / 24% 25% 75% 76%;
+    /* padding-top: 0px; */
+    margin-top: 3%;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+   float: right;
+    
+
+
+}
+
+.awardContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.awardContainer .row {
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+
+}
+
+.banner-one__inner-box {
+    position: relative;
+    display: block;
+
+
+}
+
+.banner-one__big-title {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    color: rgba(46, 46, 54, .03);
+    font-size: 400px;
+    line-height: .8em;
+    font-weight: 800;
+    text-transform: capitalize;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 110%;
+}
+
+.banner-one__content {
+    max-width: 600px;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.banner-one__content,
+.banner-one__inner-box {
+    position: relative;
+    display: block;
+}
+
+.banner-one__content .section-title {
+    margin-bottom: 28px;
+}
+
+.section-title {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+
+}
+
+
+.section-title__tagline {
+    position: relative;
+    display: block;
+    margin-bottom: 17px;
+}
+
+
+.section-title__tagline span.left {
+    margin-right: 15px;
+}
+
+
+.single-award-title {
+    margin-top: 45px;
+    position: relative;
+    margin-bottom: 100px;
+    padding-bottom: 1px;
+   
+  
+
+}
+
+.single-award-title h2 {
+    font-size: 100px;
+
+}
+
+.single-award-title h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+@media only screen and (min-width:375px) and (max-width: 991px) {
+
+    .banner-one .shape1,
+    .banner-one__big-title {
+        display: none;
+    }
+
+    .awardContainer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) and (max-width: 991px) {
+    .banner-one__content {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width: 991px) {
+    .single-award-title h2 {
+        font-size: 45px;
+        /* color: red; */
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    #singleAwards .awardContainer {
+        display: flex;
+
+    }
+}
+
+@media (min-width: 768px) {
+/* 
+    .cover-intro {
+        max-width: 720px;
+    } */
+}
+
+
+/* za opisot */
+
+.inner {
+    width: 100%;
+    height: 100%;
+
+}
+
+.award-deck {
+    width: 70%;
+}
+
+.award-deck h3 {
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+.award-deck p {
+    text-align: justify;
+    padding-right: 50PX;
+    padding-left: 25px;
+    line-height: 25px;
+}
+
+
+
+.award-deck ol {
+    text-align: justify;
+    padding-right: 50PX;
+    padding-left: 25px;
+    line-height: 25px;
+}
+
+.award-deck li:before {
+    content: "\f1ea";
+    font-family: "FontAwesome";
+    color: #5ca9fb;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+
+}
+
+
+
+.award-deck2 {
+    width: 70%;
+}
+
+.award-deck2 h3 {
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+.award-deck3 {
+
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* za download brochur */
+
+
+
+@media screen and (min-width: 576px) {
+    .loHemt {
+        padding-left: 56px;
+        padding-right: 16px;
+    }
+}
+
+.loHemt {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Roboto, Almarai, system-ui, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 36px;
+    padding: 0px 0px 0px 12px;
+    border-radius: 1px;
+    background-color: transparent;
+    border: 0px;
+    color: rgb(25, 25, 25);
+    letter-spacing: 1.4px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.dndkUl {
+    align-self: center;
+    fill: currentcolor;
+    color: currentcolor;
+    flex-shrink: 0;
+    margin-right: 12px;
+    width: 24px;
+}
+
+/* MODAL */
+
+.modal_form{
+    padding: 2.5em;
+}
+
+.modal_form form {
+ 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modal_form input,
+.modal_form textarea {
+    border: none;
+    padding: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0.5em 0 1em 0;
+    font-size: 1.1em;
+    background: #eee;
+    color: #969696;
+}
+
+.modal_form label {
+    color: #a0a0a0;
+}
+
+.modal_form textarea {
+    resize: none;
+    height: 8em;
+
+}
+
+.modal_form input:focus,
+.modal_form textarea:focus {
+    outline: none;
+}
+
+.modal_form input::placeholder,
+.modal_form textarea::placeholder {
+    color: #bababa;
+}
+
+.modal_form button{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.8em;
+    background-color: #ff742e;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.modal_form button:hover {
+    background-color: #e16628;
+
+}
+
+@media screen and (max-width: 500px) {
+    .modal_form {
+        font-size: 14px;
+
+    }
+    
+}
+/* 
+.award-deck2 p {
+    text-align: justify;
+    padding-right: 50PX;
+    padding-left: 25px;
+    line-height: 25px;
+} */
+
+
+/* za slika */
+
+
+/* 
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-one__banner-img {
+      top: 0;
+      right: -350px;
+    }
+  }
+  
+  .banner-one__banner-img {
+    position: absolute;
+  
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+  .banner-one__banner-img img {
+      width: 61%;
+  }}
+  
+  .banner-one__banner-img img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle
+  }
+  
+  
+  .section-title__tagline span.left, .section-title__tagline span.right {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: var(--thm-base);
+    top: -5px;
+  } */
