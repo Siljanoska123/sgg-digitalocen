@@ -26,7 +26,7 @@ export const Header = (props) => {
               href='/awards'
               className='button-header'
             >
-              Learn 
+              Learn More
             </a>{' '}
 
           </div>

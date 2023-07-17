@@ -27,14 +27,14 @@ export const SingleAward = (props) => {
     // za formata od modalot
 
 
-    const publicKey = '1'
-    const serviceID = '12'
-    const templateID = '123'
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY
+    const serviceID = process.env.REACT_APP_SERVICE_ID
+    const templateID = process.env.REACT_APP_TEMPLATE_ID
     // const clearState = () => setState({ ...initialState });
 
 
     const form = useRef();
-
+console.log (process.env)
     const sendEmail = (e) => {
         e.preventDefault();
 
