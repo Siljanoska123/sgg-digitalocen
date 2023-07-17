@@ -34,7 +34,7 @@ export const SingleAward = (props) => {
 
 
     const form = useRef();
-console.log (process.env)
+
     const sendEmail = (e) => {
         e.preventDefault();
 
